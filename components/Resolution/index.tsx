@@ -15,16 +15,16 @@ export const Index = () => {
 
               <div className="col-span-3">
                 <img
-                  className="rounded-xl"
-                  src="https://images.unsplash.com/photo-1605629921711-2f6b00c6bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+                  className="rounded-xl object-cover w-[250px] h-[250px]"
+                  src="https://www.visa.com.br/content/dam/VCOM/regional/lac/brazil/media-kits/images/pagamento-por-aproximacao-800x450.jpg"
                   alt="Image Description"
                 />
               </div>
 
               <div className="col-span-5">
                 <img
-                  className="rounded-xl "
-                  src="https://images.unsplash.com/photo-1600194992440-50b26e0a0309?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+                  className="rounded-xl  object-cover h-[400px] w-[520px] "
+                  src="https://sebraemg.com.br/wp-content/uploads/2022/11/Como-se-tornar-um-microempreendedor-individual.jpg"
                   alt="Image Description"
                 />
               </div>

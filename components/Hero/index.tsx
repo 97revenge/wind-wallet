@@ -13,9 +13,9 @@ export const Index = () => {
             <Header />
             <Description />
             <div className={styles.grid}>
-              <Device time={3} />
-              <Device time={3} />
-              <Device time={3} />
+              <Device />
+              <Device />
+              <Device />
             </div>
           </div>
         </div>
