@@ -1,45 +1,25 @@
+import Gallery from "./gallery";
+import { styles } from "./style";
+
 export const Index = () => {
   return (
     <>
-      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto ">
-        <div className="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center ">
-          <div className="lg:col-span-7">
-            <div className="grid grid-cols-12 gap-2 sm:gap-6 items-center lg:-translate-x-10">
-              <div className="col-span-4">
-                <img
-                  className="rounded-3xl"
-                  src="https://images.unsplash.com/photo-1606868306217-dbf5046868d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1981&q=80"
-                  alt="Image Description"
-                />
-              </div>
-
-              <div className="col-span-3">
-                <img
-                  className="rounded-xl object-cover w-[250px] h-[250px]"
-                  src="https://www.visa.com.br/content/dam/VCOM/regional/lac/brazil/media-kits/images/pagamento-por-aproximacao-800x450.jpg"
-                  alt="Image Description"
-                />
-              </div>
-
-              <div className="col-span-5">
-                <img
-                  className="rounded-xl  object-cover h-[400px] w-[520px] "
-                  src="https://sebraemg.com.br/wp-content/uploads/2022/11/Como-se-tornar-um-microempreendedor-individual.jpg"
-                  alt="Image Description"
-                />
-              </div>
-            </div>
+      <div className={styles.screen}>
+        <div className={styles.container}>
+          <div className={styles.element}>
+            <Gallery />
           </div>
 
           <div className="mt-5 sm:mt-10 lg:mt-0 lg:col-span-5">
             <div className="space-y-6 sm:space-y-8">
               <div className="space-y-2 md:space-y-4">
                 <h2 className="mb-2 text-4xl font-black tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-orange-300 to-rose-700  dark:text-white lg:text-6xl md:text-4xl">
-                  Collaborative tools to design user experience
+                  Deixe mais fácil a forma que o cliente tem o serviço
                 </h2>
-                <p className=" text-xl font-medium border-b-2 py-2 leading-relaxed text-gray-600  lg:w-2/3 dark:text-white">
-                  Use our tools to explore your ideas and make your vision come
-                  true. Then share your work easily.
+                <p className=" text-xl font-medium border-b-2 py-2 leading-relaxed text-gray-600  lg:w-3/3 dark:text-white">
+                  Ingressos de eventos e cartões comprovantes , seus usuários
+                  podem comprar e adicionar tudo na Google Wallet da sua
+                  empresa.
                 </p>
               </div>
 
@@ -63,8 +43,7 @@ export const Index = () => {
                   </span>
 
                   <span className="text-sm sm:text-base text-gray-500">
-                    <span className="font-bold">Less routine</span> – more
-                    creativity
+                    <span className="font-bold">Menos contas</span> - mais tempo
                   </span>
                 </li>
 
@@ -87,7 +66,7 @@ export const Index = () => {
                   </span>
 
                   <span className="text-sm sm:text-base text-gray-500">
-                    Hundreds of thousands saved
+                    Escalabilidade de sistema da Google
                   </span>
                 </li>
 
@@ -110,7 +89,8 @@ export const Index = () => {
                   </span>
 
                   <span className="text-sm sm:text-base text-gray-500">
-                    Scale budgets <span className="font-bold">efficiently</span>
+                    Extremamente eficiente para{" "}
+                    <span className="font-bold">Dispositivos Android</span>
                   </span>
                 </li>
               </ul>
