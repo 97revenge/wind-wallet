@@ -27,17 +27,13 @@ const styles = {
 export default function Header() {
   return (
     <>
-      <motion.div
-        initial={{ opacity: 0, y: -50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-      >
+      <div>
         <h1 className={styles.title}>
           <span> Carteira Digital </span>
           <br className={styles.subtitle} />
           Dentro da sua empresa
         </h1>
-      </motion.div>
+      </div>
     </>
   );
 }

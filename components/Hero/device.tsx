@@ -1,22 +1,13 @@
 import { motion } from "framer-motion";
 
-type time = {
-  opacity: number;
-  y: number;
-};
-
-export default function Device({
-  time,
-}: {
-  time: { opacity: number; y: number };
-}) {
+export default function Device({ time }: { time: number }) {
   return (
     <>
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-        className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px]"
+        transition={{ duration: time }}
+        className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] mt-2"
       >
         <div className="h-[32px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[72px] rounded-s-lg"></div>
         <div className="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[124px] rounded-s-lg"></div>
