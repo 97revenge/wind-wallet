@@ -1,8 +1,15 @@
+import { motion } from "framer-motion";
+
 export const Index = () => {
   return (
     <>
-      <nav className=" border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className=" border-gray-200 dark:bg-gray-900 dark:border-gray-700 py-2">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 5 }}
+          transition={{ duration: 50 }}
+          className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
           <a
             href="#"
             className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -46,13 +53,13 @@ export const Index = () => {
                   className="block py-2 px-3 text-white  rounded md:bg-transparent md:text-orange-700 md:p-0 md:dark:orange-blue-500 dark:bg-orange-600 md:dark:bg-transparent "
                   aria-current="page"
                 >
-                  Get Started
+                  Saiba Mais
                 </a>
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
+        </motion.div>
+      </div>
     </>
   );
 };

@@ -2,11 +2,6 @@ export const Index = () => {
   return (
     <>
       <section className="py-6 text-blue-900 sm:py-16 lg:py-20">
-        <div className="m-auto text-center lg:w-8/12 xl:w-7/12">
-          <h2 className="mb-6 pb-2 text-5xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-orange-300 to-rose-700  dark:text-white lg:text-5xl sm:text-3xl">
-            Importância das <i>Wallets</i> ao redor do mundo
-          </h2>
-        </div>
         <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-screen-lg lg:px-8">
           <div className="flex flex-col lg:flex-row">
             <div className="relative mx-auto mb-10 flex h-96 overflow-hidden rounded-xl bg-gradient-to-r from-orange-300/50 to-rose-700/70 shadow sm:mt-20 lg:h-auto lg:max-w-md lg:pt-20">

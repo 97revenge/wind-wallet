@@ -7,10 +7,12 @@ import { Index as Testimonials } from "@/components/Testimonials";
 import { Index as Contact } from "@/components/contact";
 import { Index as Pricing } from "@/components/pricing";
 import { Index as Footer } from "@/components/footer";
+import { Index as Options } from "@/components/Options";
 
 export default function Scaffold() {
   return (
     <>
+      <Options />
       <Hero />
       <Services />
       <Resolution />
