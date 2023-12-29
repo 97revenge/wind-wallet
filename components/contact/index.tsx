@@ -5,12 +5,12 @@ export const Index = () => {
         <div className="text-base text-gray-900">
           <div className="mx-auto w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
             <div className="mx-2 pt-12 text-center md:mx-auto md:w-2/3 md:pb-12">
-              <h1 className="mb-6 pb-2 text-4xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-orange-300 to-rose-700  dark:text-white lg:text-5xl sm:text-3xl">
+              <h1 className="mb-6 pb-2 text-6xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-orange-300 to-rose-700  dark:text-white lg:text-6xl sm:text-3xl">
                 Entre em contato conosco
               </h1>
               <div className="text-lg sm:text-xl xl:text-xl">
                 <div className="text-gray-900">
-                  <p className="mb-6 pb-2  mx-auto text-xl font-medium  text-gray-600 dark:text-gray-300">
+                  <p className="mx-auto text-xl font-medium border-b-2 py-2 leading-relaxed text-gray-600  lg:w-2/3 dark:text-white">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   </p>
                 </div>
