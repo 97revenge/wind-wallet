@@ -10,9 +10,9 @@ export const Index = () => {
                 src="https://images.unsplash.com/photo-1551721434-8b94ddff0e6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
                 alt=""
               />
-              <div className="relative mt-auto w-full">
+              <div className="relative mt-auto w-full ">
                 <div className="flex flex-col p-6 lg:px-7 lg:py-8">
-                  <div className="">
+                  <div className=" ">
                     <blockquote className="">
                       <a
                         href="https://twitter.com/DougPChandler/status/1740137117940932768"
