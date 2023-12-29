@@ -74,23 +74,23 @@ export default function Gallery() {
           <img
             className={image.left}
             src="https://images.unsplash.com/photo-1606868306217-dbf5046868d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1981&q=80"
-            alt="Image Description"
+            alt="Homem em um notebook"
           />
         </div>
 
         <div className={grid.span3}>
           <img
-            className="rounded-xl object-cover w-[250px] h-[250px]"
+            className={image.center}
             src="https://www.visa.com.br/content/dam/VCOM/regional/lac/brazil/media-kits/images/pagamento-por-aproximacao-800x450.jpg"
-            alt="Image Description"
+            alt="Pessoa debitando pela Google Wallet"
           />
         </div>
 
         <div className={grid.span5}>
           <img
-            className="rounded-xl  object-cover h-[400px] w-[520px] "
+            className={image.right}
             src="https://sebraemg.com.br/wp-content/uploads/2022/11/Como-se-tornar-um-microempreendedor-individual.jpg"
-            alt="Image Description"
+            alt="Mulher fazendo contas"
           />
         </div>
       </div>
